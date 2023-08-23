@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    margin-right: 20px;
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FFD700; /* Cor quando hover */
+}
+
+.content {
+    margin-top: 80px; /* Para evitar que o conteúdo fique atrás da barra de navegação */
+    padding: 20px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+}
+
+
+#showMoreBtn {
+    margin-top: 20px; /* Reduzido o espaço acima do botão */
+    margin-bottom: 20px; /* Reduzido o espaço abaixo do botão */
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px; /* Aumenta o tamanho do botão */
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#showMoreBtn:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Aumenta um pouco mais o tamanho ao passar o mouse */
+}
+
+#showMoreBtn:focus {
+    outline: none;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+
+
